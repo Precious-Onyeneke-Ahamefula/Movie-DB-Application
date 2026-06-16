@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccaca;
+    text-align: center;
+}
+
+h1 {
+    background-color: #494444;
+    color: #fff;
+    padding: 10px;
+}
+
+#movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#movie-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 80px;
+    margin: 20px auto;
+}
+
+button {
+    width: 20vw;
+    background-color: rgb(134, 134, 241);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Additional code search icon */
+.search-box {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#search {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* space for icon */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: gray;
+    pointer-events: none; /* allows typing in input */
+}
+
